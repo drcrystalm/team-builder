@@ -15,8 +15,8 @@ function App() {
 
     return (
         <div className='App'>
-            <h2>Member List</h2>
             <header className='App-header'>
+                <h2>Member List</h2>
                 {/* <img src={logo} className='App-logo' alt='logo' /> */}
                 <div className='form-box'>
                     <Form addNewMember={addNewMember} />

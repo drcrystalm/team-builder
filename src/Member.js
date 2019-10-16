@@ -8,8 +8,8 @@ const Member = props => {
                 return (
                     <div className='member' key={index}>
                         <h3>{member.name}</h3>
-                        <h4>{member.email}</h4>
-                        <h4>{member.role}</h4>
+                        <p>{member.email}</p>
+                        <p>{member.role}</p>
                     </div>
                 )
             })}
